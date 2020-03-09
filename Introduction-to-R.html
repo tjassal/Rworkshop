@@ -385,7 +385,7 @@ summary {
 <div id="workshop-goals" class="section level2">
 <h2>Workshop Goals</h2>
 <ul>
-<li>Gain exposure with R/RStudio</li>
+<li>Gain exposure with R &amp; RStudio</li>
 <li>Learn how to import data, do something with it, then export it</li>
 <li>Create a basic blueprint for analysis of your own data</li>
 </ul>
@@ -395,17 +395,17 @@ summary {
 <ol style="list-style-type: decimal">
 <li>Overview of R &amp; RStudio (20 mins)</li>
 <li>Packages in R (10 mins)</li>
-<li>Import Data (xx mins)</li>
-<li>Visualize Data (xx mins)</li>
-<li>Moving Beyond Today (xx mins)</li>
+<li>Import Data (15 mins)</li>
+<li>Visualize Data (15 mins)</li>
+<li>Moving Beyond Today (10 mins)</li>
 </ol>
-<p><em>The materials for this workshop can be accessed on <a href="https://github.com/tjassal/Rworkshop">github</a> or from my website <a href="http://timassal.com/wp-content/uploads/2019/11/KSU_data.zip">here</a>.</em></p>
+<p><strong>The materials for this workshop can be accessed on <a href="https://github.com/tjassal/Rworkshop">github</a> or from my <a href="http://www.timassal.com/?p=2237">website</a>.</strong></p>
+<p><em>Some of these materials were adapted from Data Carpentry, Ethan White, Simon Peng, Hadley Wickham and Ethan White (and probably many others that I forgot).</em></p>
 </div>
 <div id="overview-of-r-rstudio" class="section level2">
 <h2>1. Overview of R &amp; RStudio</h2>
 <div id="what-is-r-what-is-rstudio" class="section level4">
 <h4>What is R? What is RStudio?</h4>
-<p>(notes from datacarpentry.org)</p>
 <p>The term “R” is used to refer to both the programming language and the software that interprets the scripts written using it.</p>
 <p>RStudio is currently a very popular way to not only write your R scripts but also to interact with the R software. To function correctly, RStudio needs R and therefore both need to be installed on your computer.</p>
 </div>
@@ -492,12 +492,12 @@ summary {
 <p>Today we are going to use a package called the “tidyverse” which is actually a collection of packages designed to work together. This package is recognized by many in the field as being at the forefront of data wrangling. We’ll barely scratch the surface, but I think it’s important that you learn some of these capabilities. Then if needed, you’ll be able to dig in and explore more in your own work.</p>
 <p>Once you install a package, you will not be able to use the functions, objects, and help files in a package until you load it with library(). Once you have installed a package, you can load it with the library() function at the beginning of your code file:</p>
 <pre class="r"><code>library(tidyverse)  #this command will show you the libraries that are loaded</code></pre>
-<pre><code>## ── Attaching packages ──────────────────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
+<pre><code>## ── Attaching packages ───────────────────────────────────────────────────────────────── tidyverse 1.3.0 ──</code></pre>
 <pre><code>## ✔ ggplot2 3.3.0     ✔ purrr   0.3.3
 ## ✔ tibble  2.1.3     ✔ dplyr   0.8.3
 ## ✔ tidyr   1.0.2     ✔ stringr 1.4.0
 ## ✔ readr   1.3.1     ✔ forcats 0.4.0</code></pre>
-<pre><code>## ── Conflicts ─────────────────────────────────────────────────────── tidyverse_conflicts() ──
+<pre><code>## ── Conflicts ──────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()</code></pre>
 </div>
@@ -632,7 +632,7 @@ plot(iris$Petal.Width, iris$Petal.Lenth, main=&quot;Scatterplot&quot;)</code></p
 <div id="resources" class="section level3">
 <h3>Resources:</h3>
 <ul>
-<li><p><a href="https://r4ds.had.co.nz/">R for Data Science</a> by Hadley Wickham and Garrett Grolemund <strong>open source text</strong>.</p></li>
+<li><p><a href="https://r4ds.had.co.nz/">R for Data Science</a> by Hadley Wickham and Garrett Grolemund <strong>- this is an open source text</strong>.</p></li>
 <li><p>When in doubt, use the google!</p></li>
 </ul>
 </div>

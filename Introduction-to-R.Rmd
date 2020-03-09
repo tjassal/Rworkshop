@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 ## Workshop Goals
-* Gain exposure with R/RStudio
+* Gain exposure with R & RStudio
 * Learn how to import data, do something with it, then export it
 * Create a basic blueprint for analysis of your own data
 
@@ -28,18 +28,18 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Course Outline
 1. Overview of R & RStudio (20 mins)
 2. Packages in R (10 mins)
-3. Import Data (xx mins)
-4. Visualize Data (xx mins)
-5. Moving Beyond Today (xx mins)
+3. Import Data (15 mins)
+4. Visualize Data (15 mins)
+5. Moving Beyond Today (10 mins)
 
 
-*The materials for this workshop can be accessed on [github](https://github.com/tjassal/Rworkshop) or from my website [here](http://timassal.com/wp-content/uploads/2019/11/KSU_data.zip).* 
+**The materials for this workshop can be accessed on [github](https://github.com/tjassal/Rworkshop) or from my [website](http://www.timassal.com/?p=2237).** 
 
+*Some of these materials were adapted from Data Carpentry, Ethan White, Simon Peng, Hadley Wickham and Ethan White (and probably many others that I forgot).*
 
 ## 1. Overview of R & RStudio
 
 #### What is R? What is RStudio? 
-(notes from datacarpentry.org)
 
 The term “R” is used to refer to both the programming language and the software that interprets the scripts written using it.
 
@@ -328,7 +328,7 @@ summary(model1)
 
 ### Resources:
 
-+ [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund **open source text**.
++ [R for Data Science](https://r4ds.had.co.nz/) by Hadley Wickham and Garrett Grolemund **- this is an open source text**.
 
 + When in doubt, use the google!
 
