@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1583722242756.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2078520800",
+    "id" : "D6CF86E7",
+    "lastKnownWriteTime" : 1583734182,
+    "last_content_update" : 1583734182636,
+    "path" : "~/Documents/Teaching/Rworkshop/Introduction-to-R.Rmd",
+    "project_path" : "Introduction-to-R.Rmd",
+    "properties" : {
+        "cursorPosition" : "78,4",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
