@@ -33,7 +33,7 @@ knitr::opts_chunk$set(echo = TRUE)
 5. Moving Beyond Today (xx mins)
 
 
-*The materials for this workshop can be accessed on [github](https://github.com/tjassal/Map-with-ggplot) or from my website [here](http://timassal.com/wp-content/uploads/2019/11/KSU_data.zip).* 
+*The materials for this workshop can be accessed on [github](https://github.com/tjassal/Rworkshop) or from my website [here](http://timassal.com/wp-content/uploads/2019/11/KSU_data.zip).* 
 
 
 ## 1. Overview of R & RStudio
